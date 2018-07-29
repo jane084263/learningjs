@@ -1,0 +1,22 @@
+@import '_mixin-reset.scss';
+@include reset;
+html,
+body {
+  -webkit-overflow-scrolling: touch;
+}
+.text-center {
+  text-align:center;
+}
+.text-left {
+  text-align:left;
+}
+.text-right {
+  text-align:right;
+}
+.container {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

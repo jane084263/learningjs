@@ -1,7 +1,8 @@
 <template>
   <div class="container">
-    <div class="page__hd text-center">this is chapter1</div>
+    <div class="page__hd">this is chapter two</div>
     <div class="page__bd">
+
     </div>
   </div>
 </template>
