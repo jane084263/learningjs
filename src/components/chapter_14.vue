@@ -1,8 +1,12 @@
 <template>
   <div class="container">
-    <div class="page__hd">this is chapter1</div>
+    <div class="page__hd">this is chapter 14</div>
     <div class="page__bd">
-
+      <form action="">
+        <input type="text" name="text">
+        <input type="reset" value="reset form" >
+        <input type="submit">
+      </form>
     </div>
   </div>
 </template>
