@@ -165,6 +165,11 @@
             to: "/chapter_29",
             value: "js工具",
           },
+          {
+            title: "vue源码学习",
+            to: "/chapter_30",
+            value: "vue源码学习",
+          },
         ]
       }
     }

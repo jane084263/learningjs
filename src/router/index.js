@@ -215,5 +215,12 @@ export default new Router({
         require(['./../components/chapter_29'],resolve);
       }
     },
+    {
+      path: '/chapter_30',
+      name: 'chapter_30',
+      component: (resolve)=>{
+        require(['./../components/chapter_30'],resolve);
+      }
+    },
   ]
 })
