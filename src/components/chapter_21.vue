@@ -91,6 +91,7 @@
       },
       test:function () {
         // this is note
+        console.log(111111);
       }
     },
     mounted() {
