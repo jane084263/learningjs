@@ -69,8 +69,10 @@
         // referer 请求的url
       },
       addURLParam: function () {
+        let url;
+        url = "https://baidu.com.cn?";
         url += (url.indexOf("?") == -1 ? "?" : "&");
-        url += encodeURIComponent(name) + "=" + encodeURIComponent(value);
+        url += encodeURIComponent(name) + "=" + encodeURIComponent();
         return url;
       },
       submitData: function () {
